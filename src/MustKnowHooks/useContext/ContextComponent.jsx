@@ -1,8 +1,8 @@
-import React, { useContext } from "react";
-import { ThemeContext } from "./Context";
+import React from "react";
+import { useTheme } from "./ThemeProvider";
 
 function ContextComponent() {
-  const darkTheme = useContext(ThemeContext);
+  const { darkTheme, toggleTheme } = useTheme();
 
   const style = {
     width: "200px",
@@ -14,7 +14,12 @@ function ContextComponent() {
     backgroundColor: darkTheme ? "black" : "white",
     color: darkTheme ? "white" : "black",
   };
-  return <div style={style}>ContextComponent</div>;
+  return (
+    <>
+      <button onClick={toggleTheme}>Toogle Theme</button>
+      <div style={style}>ContextComponent</div>
+    </>
+  );
 }
 
 export default ContextComponent;
