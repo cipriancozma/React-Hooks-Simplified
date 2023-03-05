@@ -1,5 +1,6 @@
 import "./App.css";
-import Ref from "./LesserUsedHooks/useRef/Ref";
+import Memo from "./LesserUsedHooks/useMemo/Memo";
+// import Ref from "./LesserUsedHooks/useRef/Ref";
 // import Context from "./MustKnowHooks/useContext/Context";
 // import Effect from "./MustKnowHooks/useEffect/Effect";
 // import State from "./MustKnowHooks/useState/State";
@@ -10,7 +11,8 @@ function App() {
       {/* <State /> */}
       {/* <Effect /> */}
       {/* <Context /> */}
-      <Ref />
+      {/* <Ref /> */}
+      <Memo />
     </div>
   );
 }
