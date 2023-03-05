@@ -1,4 +1,5 @@
 import "./App.css";
+import LayoutEffect from "./OptionalHooks/useLayoutEffect/LayoutEffect";
 // import DeferredValue from "./LesserUsedHooks/useDeferredValue/DeferredValue";
 // import Transition from "./LesserUsedHooks/useTransition/Transition";
 // import TodoReducer from "./LesserUsedHooks/useReducer/TodoReducer";
@@ -23,6 +24,7 @@ function App() {
       {/* <TodoReducer /> */}
       {/* <Transition /> */}
       {/* <DeferredValue /> */}
+      <LayoutEffect />
     </div>
   );
 }
