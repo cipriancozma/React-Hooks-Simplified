@@ -1,5 +1,6 @@
 import "./App.css";
-import Transition from "./LesserUsedHooks/useTransition/Transition";
+// import DeferredValue from "./LesserUsedHooks/useDeferredValue/DeferredValue";
+// import Transition from "./LesserUsedHooks/useTransition/Transition";
 // import TodoReducer from "./LesserUsedHooks/useReducer/TodoReducer";
 // import Reducer from "./LesserUsedHooks/useReducer/Reducer";
 // import Callback from "./LesserUsedHooks/useCallback/Callback";
@@ -20,7 +21,8 @@ function App() {
       {/* <Callback /> */}
       {/* <Reducer /> */}
       {/* <TodoReducer /> */}
-      <Transition />
+      {/* <Transition /> */}
+      {/* <DeferredValue /> */}
     </div>
   );
 }
