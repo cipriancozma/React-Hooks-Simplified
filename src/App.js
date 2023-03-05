@@ -1,5 +1,7 @@
 import "./App.css";
-import Memo from "./LesserUsedHooks/useMemo/Memo";
+import Reducer from "./LesserUsedHooks/useReducer/Reducer";
+// import Callback from "./LesserUsedHooks/useCallback/Callback";
+// import Memo from "./LesserUsedHooks/useMemo/Memo";
 // import Ref from "./LesserUsedHooks/useRef/Ref";
 // import Context from "./MustKnowHooks/useContext/Context";
 // import Effect from "./MustKnowHooks/useEffect/Effect";
@@ -12,7 +14,9 @@ function App() {
       {/* <Effect /> */}
       {/* <Context /> */}
       {/* <Ref /> */}
-      <Memo />
+      {/* <Memo /> */}
+      {/* <Callback /> */}
+      <Reducer />
     </div>
   );
 }
